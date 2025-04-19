@@ -1,11 +1,14 @@
 "use strict";
 
-export function greet(name){
-   return("howdy," + name)
+export function greet(name) {
+  return "howdy," + name;
 }
-console.log(greet("elle"));
 
-export function favoriteCar(brand){
-   return("favorite car," + brand)
+
+import _ from "lodash";
+
+export function repeatfavoriteCar(brand, count = 10) {
+  const trimmedBrand = _.trim(brand);
+  return _.repeat(` ${trimmedBrand}  is my favorite car `, count);
 }
-console.log(favoriteCar("Toyota"));
+
