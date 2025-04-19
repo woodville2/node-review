@@ -1,0 +1,22 @@
+{
+  "name": "review",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "level 3 week 1 day 5 assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodville2/node-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woodville2/node-review/issues"
+  },
+  "homepage": "https://github.com/woodville2/node-review#readme"
+}
