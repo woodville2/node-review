@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/woodville2/node-review#readme",
   "dependencies": {
+    "@inquirer/prompts": "^7.5.0",
     "lodash": "^4.17.21"
   }
 }
